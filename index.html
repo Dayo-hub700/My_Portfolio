@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grace's Dynamic Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <img src="my_image.jpg" alt="Grace's Profile" id="profile-img" />
+            <h1>Hi, I'm Baro Grace Oghenefejiro</h1>
+            <p>I love helping others, building interactive web experiences, and learning new things.</p>
+        </header>
+        <main>
+            <section id="about">
+                <h2>Inside My World</h2>
+                <p>
+                    I am a student at Caleb University with a passion for mental health, technology, and personal
+                    growth. My goal is to become a web developer, inspired by my own journey and a desire to create
+                    user-friendly,interactive web applications. Im currently building my skills in web development
+                    (HTML, CSS, JavaScript), and leadership. Guided by my Christian faith and the values of kindness and
+                    compassion, I aim to create meaningful change — both through tech and in people's lives.
+                </p>
+            </section>
+            <section id="multimedia-showcase">
+                <h2>Multimedia Showcase</h2>
+                <h3>My Audio Greeting:</h3>
+                <audio controls>
+                    <source src="audio file.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+                <h3>A Quick Project Video</h3>
+                <video controls width="320" height="240">
+                    <source src="project_video .mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <section id="interactive-skills">
+                <h2>My Skills</h2>
+                <div class="skill-buttons">
+                    <button class="skill-btn" data-skill="HTML">HTML</button>
+                    <button class="skill-btn" data-skill="CSS">CSS</button>
+                    <button class="skill-btn" data-skill="JavaScript">JavaScript</button>
+                    <button class="skill-btn" data-skill="Content-Creation">Content Creation</button>
+                </div>
+                <p id="skill-description">Click a skill to learn more!</p>
+            </section>
+            <section id="porfolio-list">
+                <h2>My Projects</h2>
+                <div id="projects-container">
+                    <div class="project">
+                        <h3>Simple Portfolio Website</h3>
+                        <p>
+                            This is a basic personal website I built using HTML, CSS, and JavaScript to showcase my
+                            skills.
+                        </p>
+                        <a href="https://dayo-hub700.github.io/My_Dynamic_Portfolio/" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; <span id="current-year"> </span> Baro Grace Oghenefejiro. All rights reserved.</p>
+            <button id="themeToggle">Toggle Dark Mode</button>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
